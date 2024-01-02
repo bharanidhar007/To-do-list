@@ -1,0 +1,17 @@
+.to-do-box{
+  margin: auto;
+  min-width: 450px;
+  max-width: 560px;
+}
+.container{
+  margin-top: 10px;
+}
+.app-name{
+  margin-bottom: 15px;
+}
+.text-left{
+  text-align: left;
+}
+.buttons-width{
+  min-width: 80px;
+}
