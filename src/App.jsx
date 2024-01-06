@@ -1,17 +1,17 @@
-import AppName from "./assets/components/AppName";
-import ToDoCreate from "./assets/components/TodoCreate";
-import ToDo1 from "./assets/components/ToDo1";
-import ToDo2 from "./assets/components/ToDo2";
+import AppName from "./components/AppName";
+import ToDoCreate from "./components/TodoCreate";
+import ToDo from "./components/ToDo";
 import "./App.css";
 
 function App() {
   return (
     <div className="to-do-box">
-      <center class="to-do-container">
+      <center className="to-do-container">
         <AppName />
         <ToDoCreate></ToDoCreate>
-        <ToDo1></ToDo1>
-        <ToDo2></ToDo2>
+        <ToDo todonames={"Buy pen"} tododates={"5/12/2023"}></ToDo>
+        <ToDo todonames={"Buy Milk"} tododates={"5/12/2023"}></ToDo>
+        <ToDo todonames={"Go to collage"} tododates={"5/12/2023"}></ToDo>
       </center>
     </div>
   );
